@@ -22,15 +22,14 @@
       </div>
     </div>
     <div class="api">
-    <div class="container"> For some reason a footer would not work so here is my <a target="_blank" href="https://github.com/BYUCS260/weather-app-Teagueporter">GitHub</a>
+    <div class="container1"><a target="_blank" href="https://github.com/BYUCS260/weather-app-Teagueporter">GitHub</a>
+    
     </div>
   </div>
   </div>
 </template>
 
 <script>
-//src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js";
-
 export default {
   name: 'app'
 };
@@ -61,14 +60,24 @@ button.ui.button {
   display: block;
 }
 
+.container1{
+  background-color: black;
+  margin:0;
+  padding: 0;
+  bottom: 0;
+  position: relative;
+  text-align: center;
+
+}
 .api {
   color: white;
+  background-color: black;
   background: var(--bg_main);
   position: fixed;
-  top: 0;
+  bottom: 0;
   left: 0;
   width: 100%;
-  padding: 10px;
+  padding: 0px;
   text-align: bottom;
 }
 
